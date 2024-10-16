@@ -30,7 +30,7 @@ const SecondsCounter = ({ seconds }) => {
     return (
         <div className="counter">
             <div className="slot clock-icon">
-                <i className="fas fa-clock"></i>
+                <i className="far fa-clock"></i>
             </div>
             {formattedCount.map((digit, index) => (
                 <div key={index} className="slot">{digit}</div>
